@@ -5,7 +5,7 @@ MAINTAINER Mohamed Saad IBN SEDDIK <ms.ibnseddik@gmail.com> (@msibnseddik)
 # install packages
 RUN apt-get update -qq \
     && apt-get -qq upgrade \
-    && apt-get -qq install
+    && apt-get -qq install \
             nginx-full \
     && apt-get clean
 
